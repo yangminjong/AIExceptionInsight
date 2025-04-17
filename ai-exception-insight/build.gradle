@@ -133,3 +133,15 @@ publishing {
 		}
 	}
 }
+
+tasks.named('bootDistZip') {
+	enabled = false
+}
+
+tasks.named('bootDistTar') {
+	enabled = false
+}
+
+tasks.named('bootStartScripts') {
+	enabled = false
+}
